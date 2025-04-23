@@ -1,0 +1,13 @@
+Machine learning is a branch of artificial intelligence that focuses on building systems capable of learning from data.
+Instead of being explicitly programmed, these systems use algorithms to identify patterns and make decisions.
+This ability to learn and adapt makes machine learning highly effective in dynamic environments.
+
+There are three major types of machine learning: supervised, unsupervised, and reinforcement learning. Supervised
+learning relies on labeled datasets to teach models, while unsupervised learning finds hidden patterns in data without
+labels. Reinforcement learning, on the other hand, trains models through a reward-based system to maximize desired
+outcomes.
+
+Machine learning is widely used in applications ranging from email spam detection to self-driving cars. In healthcare,
+it helps predict disease risks, while in finance, it's used to detect fraud and automate trading. As data becomes more
+abundant, the influence of machine learning continues to grow.
+

@@ -1,0 +1,3 @@
+Machine learning is a branch of artificial intelligence that focuses on building systems capable of learning from data.
+Instead of being explicitly programmed, these systems use algorithms to identify patterns and make decisions.
+This ability to learn and adapt makes machine learning highly effective in dynamic environments.

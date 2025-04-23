@@ -1,0 +1,11 @@
+Machine learning is an AI field that empowers computers to learn and act without being specifically told how to
+perform every step. It processes large amounts of data, detects trends, and builds models that improve automatically.
+This self-improvement capability makes it ideal for complex and evolving challenges.
+
+There are different types of learning in machine learning: supervised, unsupervised, and reinforcement. Supervised
+learning uses labeled examples to map inputs to outputs. Unsupervised learning searches for structure within unlabeled
+data. Reinforcement learning learns from trial and error, receiving feedback in the form of rewards or penalties.
+
+The applications of machine learning are vast and constantly growing. It's used to power voice assistants, filter social
+media content, and guide medical diagnostics. With better data and computational resources, machine learning will play
+an even larger role in transforming industries.

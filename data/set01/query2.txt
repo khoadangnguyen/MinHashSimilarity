@@ -1,0 +1,3 @@
+The main categories of machine learning include supervised, unsupervised, and reinforcement learning. In supervised
+learning, the system is trained with input-output pairs. In contrast, unsupervised learning works without labeled
+outcomes, and reinforcement learning optimizes actions by interacting with an environment and learning from feedback.

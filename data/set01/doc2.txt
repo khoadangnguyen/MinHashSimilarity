@@ -1,0 +1,11 @@
+At its core, machine learning enables computers to learn from past experiences using data. Rather than being hard-coded
+for every task, these systems evolve by analyzing information and improving their performance over time. It’s a key
+driver behind the automation of intelligent behavior in software.
+
+The main categories of machine learning include supervised, unsupervised, and reinforcement learning. In supervised
+learning, the system is trained with input-output pairs. In contrast, unsupervised learning works without labeled
+outcomes, and reinforcement learning optimizes actions by interacting with an environment and learning from feedback.
+
+From personalized product recommendations to autonomous vehicles, machine learning is embedded in many aspects of modern
+technology. Industries like medicine and banking use it to analyze massive datasets and make accurate predictions.
+Its potential continues to expand as algorithms and hardware improve.
