@@ -1,15 +1,15 @@
 # MinHashSimilarity
-Detect Plagiarism using MinHashing
+### Detect Plagiarism using MinHashing
 
 In this project, I apply MinHash algorithm to measure word-level (lexical) text similarity between a query text and a
-collection of existing documents. The program read the text, the cleanses it, and splits it into k-shingles, where k is 
-set to be 9. Based on the number of shingles in each document, the number of MinHash functions is chosen such that it does 
-not exceed the numbers of shingles in the query.
+collection of existing documents. The program reads the texts (query text and documents), the cleanses it, and splits it
+into k-shingles, where k is set to be 9. Based on the number of shingles in each document, the number of MinHash 
+functions is chosen so that it does not exceed the numbers of shingles in the query.
 
-The program outputs the estimated Jaccard similarities as a dictionary, where each 
-key-value pair represents a document name and its similarity score with query. To validate the implementation, I also use 
-datasketch library to compute Jaccard similarities using its MinHash functionality. The program prints these scores  in
-the same format for direct comparison with the custom implementation.
+The program outputs the estimated Jaccard similarities as a dictionary, where each key-value pair represents a document 
+name and its similarity score with the query. To validate the implementation, I also use datasketch library to compute 
+Jaccard similarities using its MinHash functionality. The program prints these scores  in the same format for direct 
+comparison with the custom implementation.
 
 Test data is stored in the ./data folder, with each test set containing multiple documents and a corresponding query in 
 .txt format. 
