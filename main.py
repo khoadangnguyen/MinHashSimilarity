@@ -49,12 +49,13 @@ def apply_minhash(hash_functions, prime_number, kshingles):
         minhash.append(min(hashed_kshingles))
     return minhash
 
-data_set_path = 'data/set01'
+data_set_path = 'data/set02'
 
 with open(data_set_path + '/query1.txt', 'r', encoding='utf-8') as file:
     query = file.read()
 query = cleanse_text(query)
-query_kshingles = k_shingles_word(query, 9)
+k = 9
+query_kshingles = k_shingles_word(query, k)
 print(f'number of shingles in the query = {len(query_kshingles)}')
 hashed_query_kshingles = [stable_hash(kshingle) for kshingle in query_kshingles]
 
@@ -68,12 +69,12 @@ for filename in os.listdir(folder_path):
         with open(full_filename, 'r', encoding='utf-8') as file:
             doc = file.read()
         doc = cleanse_text(doc)
-        doc_kshingles = k_shingles_word(doc, 9)
+        doc_kshingles = k_shingles_word(doc, k)
         hashed_doc_kshingles = [stable_hash(kshingle) for kshingle in doc_kshingles]
         docs_kshingles[filename] = doc_kshingles
         hashed_docs_kshingles[filename] = hashed_doc_kshingles
         total_kshingles += len(doc_kshingles)
-n = 100
+n = 50
 print(f'number of minhash functions: {n}')
 prime_number = find_prime(total_kshingles)
 hash_functions = generate_hash_functions(n, prime_number)
